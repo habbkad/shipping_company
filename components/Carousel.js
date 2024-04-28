@@ -6,7 +6,6 @@ import "./Carousel.css";
 import cons from "./images/construction.jpg";
 import Services from "./Services_home";
 import consOne from "./consOne.jpg";
-import Slider from "react-slick";
 
 const Carousel = () => {
   const settings = {
@@ -33,7 +32,7 @@ const Carousel = () => {
           <Navbar />
         </div>
         <div className="lg:absolute bottom-2  xl:h-2/5 md:h-3/5  bg-gradient-to-r from-gray-800 to-gray-700  opacity-80 xl:w-11/12 md:w-full flex flex-col justify-center content-center xl:px-48 md:px-10 sm:px-2 ">
-          <h1 className="xl:text-5xl md:text-3xl sm:text-xl text-white xl:w-4/5 md:w-full">
+          <h1 className="xl:text-5xl text-white xl:w-4/5 md:w-full">
             SUPERIOR RESULTS. GREAT EXPERIENCES FOR EVERYONE.
           </h1>
           <button
